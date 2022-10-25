@@ -1,0 +1,22 @@
+{
+    "short_name": "Productivity",
+    "name": "To-Do List and Calendar Productivity App",
+    "description": "Create daily To-Do Lists to manage your time more efficiently",
+    "start_url": "/pages/home.html",
+    "scope": "/",
+    "display": "fullscreen",
+    "theme_color": "#ef9a9a",
+    "background_color": "#ef9a9a",
+    "icons": [
+        {
+            "src": "/img/barchart.jpg",
+            "type": "image/jpg",
+            "sizes": "200x300"
+        },
+        {
+            "src": "/img/completion.jpg",
+            "type": "image/jpg",
+            "sizes": "100x150"
+        }
+    ]
+}
