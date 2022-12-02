@@ -1,7 +1,7 @@
+//creating a dynamic calendar
 const currentDate = document.querySelector(".current-date"),
 daysTag = document.querySelector(".days"),
 prevNextIcon = document.querySelectorAll(".icons span");
-
 
 //getting new date, current year and month
 let date = new Date(),
@@ -35,6 +35,7 @@ const renderCalendar = () => {
 
 renderCalendar();
 
+//making the next and previous arrows functional
 prevNextIcon.forEach(icon => {
     icon.addEventListener("click", () => { //adding click event on both icons
         //if clicked on previous icon then decrememnt current month by 1 else increment by 1
@@ -51,3 +52,6 @@ prevNextIcon.forEach(icon => {
         renderCalendar();
     })
 })
+
+
+

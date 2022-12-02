@@ -1,0 +1,55 @@
+form{
+    margin: 0 auto;
+    width: 30%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.button {
+    text-align: center;
+    justify-content: center;
+}
+
+.tasks li {
+    margin: 0 auto;
+    width: 50%;
+    justify-content: center;
+    text-align: left;
+    padding: 15px;
+    font-size: px;
+    color: #555;
+    position: relative;
+    height: 46px;
+    padding-bottom: 20px;
+    background: #ffe7e9;
+    height: 60px;
+    border: 1px solid black;
+  }
+  
+  .tasks li:nth-child(even){
+    padding: 20px;
+  }
+  
+  .tasks li span {
+    display: block;
+    width: 400px;
+  }
+  
+  .tasks li span:nth-child(2){
+    text-align: left;
+    font-style: italic;
+    font-size: 10px;
+  }
+  
+  .tasks li div {
+    position: absolute;
+    top: 0;
+    background: lightgray;
+    width: 40px;
+    right: 0px;
+    text-align: center;
+    padding-top: 20;
+    padding: 0 0;
+    font-weight: bold;
+    cursor: pointer;
+  }

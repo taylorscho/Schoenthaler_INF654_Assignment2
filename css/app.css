@@ -1,13 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
 ul {
   list-style-type: none;
+}
+
+.tasks li {
+  justify-content: center;
+  text-align: left;
+  padding: 15px;
+  font-size: px;
+  color: #555;
+  position: relative;
+  height: 46px;
+  padding-bottom: 20px;
+  background: #ffe7e9;
+  height: 60px;
+  border: 1px solid black;
+}
+
+.tasks li:nth-child(even){
+  padding: 20px;
+}
+
+.tasks li span {
+  display: block;
+  width: 400px;
+}
+
+.tasks li span:nth-child(2){
+  text-align: left;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.tasks li div {
+  position: absolute;
+  top: 0;
+  background: lightgray;
+  width: 40px;
+  right: 0px;
+  text-align: center;
+  padding-top: 20;
+  padding: 0 0;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 body {
@@ -20,7 +54,7 @@ body {
   position: absolute;
   top: 45%;
   left: 50%;
-  height: 450px;
+  height: 500px;
   width: 500px;
   background: #fff;
   border-radius: 10px;
@@ -30,7 +64,7 @@ body {
 }
 
 .calendar{
-  padding: 20px;
+  padding: 30px;
 }
 
 .calendar ul{
@@ -146,7 +180,7 @@ header .icons span:last-child{
 
 .tasks{
   position: absolute;
-  top: 95%;
+  top: 100%;
   left: 50%; 
   transform: translate(-50%, -50%);
 }
@@ -161,4 +195,27 @@ header .icons span:last-child{
   top: 35%;
   left: 50%; 
   transform: translate(-50%, -50%);
+}
+
+form input {
+  float: left;
+  width: 38%;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #eee;
+  margin: 0 1%;
+  padding: 10px;
+  display: block;
+  box-sizing: border-box;
+  font-size: 18px;
+}
+
+button {
+  margin: 0 auto;
+  font-size: small;
+}
+
+.button {
+  text-align: center;
+  justify-content: center;
 }
